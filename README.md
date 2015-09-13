@@ -1,2 +1,2 @@
 # GoogleFormApi
-Save form data in google Spreadsheet
+Save Form data in google Spreadsheet
