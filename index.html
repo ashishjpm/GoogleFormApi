@@ -1,0 +1,38 @@
+
+<html>
+  <head>
+    <title>StayGlad Project by Ashish</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/script.js"></script>
+      
+    <script type="text/javascript">
+        if (screen.width <= 699) {
+        document.location = "mobile.html";
+    }
+    </script>
+      
+  </head>
+
+  <body>
+    <div id="section1" class="inline col-50">
+        <div>
+        <div class="center" id="heading">
+        Make a single responsive page
+        
+        </div>
+        <div class="center" id="text">
+        Make a single responsive page (is usable on laptops and mobile phones) with an image in the background. On the left half of the page, have a heading and a text (Section 1). This full section should be vertically and horizontally centered (in the respective half section). On the right half, create a simple form (Section 2) with one field as email and a submit button. On clicking the submit button, the email should be sent as a post request to the google form link below. In case of mobile phones, the two sections shall be aligned one below the other for better usability.
+        
+        </div>
+        </div>
+    </div>
+    <div id="backgnd" class="inline col-50">
+        <form class="center" action="https://docs.google.com/forms/d/1jtXcvrvOxqOgsJ2DhFEY-WDf6ySHknyusnZpGU8MNtU/formResponse" method="POST" target="_self" onsubmit="postContactToGoogle(); return false">
+            <input class="placeholder" type="text" id="Email" placeholder="Email Address"><br><br>
+            <button type="reset" value="Reset" class="btn">RESET</button>
+            <input type="submit" class="btn">
+        </form>
+    </div>
+</body>
+</html>

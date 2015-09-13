@@ -1,0 +1,54 @@
+/* Put your css in here */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#backgnd{
+    background-image: url("img/bg.jpg");
+    background-size: 1366px 714px;
+    background-repeat: no-repeat;
+    width: 1366spx;
+    height: 714px;
+/*    opacity: 0.5;*/
+}
+#heading{
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#text{
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+
+.btn{
+    width: 11.5em;  
+    height: 2.5em;
+}
+
+.col-50{
+    width: 50%;
+}
+
+div.inline { 
+    float:left; 
+}
+
+.center {
+    top: 40%;
+    position: relative;
+/*    vertical-align: middle;*/
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.placeholder{
+    font-size:28px; 
+    height:35px
+}
+
+#section1{
+padding-top: 15%;
+}
